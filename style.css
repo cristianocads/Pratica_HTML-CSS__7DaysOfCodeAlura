@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-principal: #8E2424;
+    --cor-texto-principal: #101828;
+    --cor-texto-secundario: #667085;
+    --fonte-principal: "Inter";
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 5rem;
+    padding: 0.5rem 2rem;
+}
+.cabecalho__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+.cabecalho__navegacao {
+    display: flex;
+    gap: 2rem;
+}
+.navegacao__link {
+    text-decoration: none;
+    color: var(--cor-texto-secundario);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.navegacao__link:hover {
+    color: var(--cor-principal);
+    text-decoration: underline;
+}
+.cabecalho__entrar {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.entrar__link {
+    text-decoration: none;
+    color: var(--cor-texto-secundario);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.entrar:hover {
+    color: var(--cor-principal);
+    text-decoration: underline;
+}
+.cadastrar {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 0.625rem 1.125rem;
+    border-radius: 8px;
+}
+.cadastrar:hover {
+    text-decoration: underline;
+}
