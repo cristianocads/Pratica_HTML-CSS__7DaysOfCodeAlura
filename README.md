@@ -55,9 +55,7 @@ candidatos, como:
 - Adicionar seções detalhadas sobre a empresa e as oportunidades de emprego.
 - Implementar uma área de inscrição.
 
-## Como Contribuir
-
-Se você deseja contribuir para o aprimoramento deste projeto, fique à vontade para fazer um **fork** e enviar **pull requests**.
+</br>
 
 <div align="center">
 
